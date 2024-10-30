@@ -1,0 +1,56 @@
+# Django #
+*.log
+*.pot
+*.pyc
+__pycache__/
+db.sqlite3
+*.sqlite3
+
+# Django migrations #
+*/migrations/*.py
+*/migrations/*.pyc
+!*/migrations/__init__.py
+
+# Environments #
+.env
+.env.*.local
+.vscode/
+.idea/
+
+# Python #
+*.py[cod]
+*.pyo
+*.pyd
+*.pdb
+
+# macOS #
+.DS_Store
+
+# Byte-compiled / optimized / DLL files #
+*.py[cod]
+
+# C extensions #
+*.so
+
+# Virtual environments #
+venv/
+.env/
+env/
+*.env
+
+# Jupyter Notebook #
+.ipynb_checkpoints
+
+# Testing #
+.tox/
+.nox/
+.cache/
+.pytest_cache/
+
+# IDEs and editors #
+*.swp
+*.swo
+*.swn
+*.bak
+*.tmp
+*.orig
