@@ -8,6 +8,8 @@ This repository implements CRUD operations on product information. Read the code
 
 To run the tests: `python manage.py test products`
 
+GitHub runs these tests automatically, on every push to the repo. See the `Actions` tab above.
+
 Optionally, you may run the server: `python manage.py runserver` and use http://127.0.0.1:8000/admin/ to add products, http://127.0.0.1:8000/api/products/ do perform CRUD operations.
 
 ## Your work
